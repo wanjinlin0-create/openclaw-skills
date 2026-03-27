@@ -10,6 +10,7 @@
 |--------|------|------|
 | [openclaw-memory-setup](./openclaw-memory-setup/) | 记忆系统配置指南（FTS全文搜索 + 向量语义搜索） | 2026-03-27 |
 | [remote-desktop-setup](./remote-desktop-setup/) | 远程桌面配置（浏览器远程控制服务器桌面） | 2026-03-27 |
+| [feishu-send-file](./feishu-send-file/) | 飞书文件发送指南（通过机器人API发文件） | 2026-03-28 |
 
 ---
 
