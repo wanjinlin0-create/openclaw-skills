@@ -1,0 +1,12 @@
+{
+  "nodes": {
+    "analyzer": "http://localhost:9001",
+    "planner": "http://localhost:9002",
+    "executor": "http://localhost:9003",
+    "reviewer": "http://localhost:9004"
+  },
+  "coordinator": {
+    "host": "0.0.0.0",
+    "port": 9000
+  }
+}
