@@ -29,6 +29,7 @@
 | `agent_node.py` | 智能体节点，具备独立LLM推理能力 |
 | `deploy.sh` | 一键部署脚本 |
 | `config.json` | 节点配置 |
+| `examples.md` | 使用示例 |
 
 ## 🚀 快速开始
 
@@ -74,7 +75,7 @@ python3 agent_node.py
   "coordinator": "192.168.1.8",
   "nodes": {
     "planner": "192.168.1.2",
-    "executor": "192.168.1.7", 
+    "executor": "192.168.1.7",
     "reviewer": "192.168.1.6"
   }
 }
