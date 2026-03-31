@@ -1,0 +1,33 @@
+{
+  "_comment": "多智能体分布式系统配置",
+  "coordinator": {
+    "host": "192.168.1.8",
+    "port": 6379,
+    "description": "中控服务器地址，运行Redis和协调器"
+  },
+  "nodes": {
+    "planner": {
+      "name": "皮皮蛋",
+      "role": "策划师",
+      "host": "192.168.1.2",
+      "description": "分析任务，制定执行计划"
+    },
+    "executor": {
+      "name": "巴巴boy",
+      "role": "执行者", 
+      "host": "192.168.1.7",
+      "description": "按计划执行任务"
+    },
+    "reviewer": {
+      "name": "はな",
+      "role": "审核员",
+      "host": "192.168.1.6",
+      "description": "审查结果，把控质量"
+    }
+  },
+  "llm": {
+    "api_url": "https://api.kimi.com/coding/v1/chat/completions",
+    "model": "k2p5",
+    "timeout": 120
+  }
+}
